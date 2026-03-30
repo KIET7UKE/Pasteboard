@@ -19,7 +19,7 @@ rm -rf "$BUILD_DIR"
 # Build the project
 # Note: We build the target directly to avoid scheme dependency issues if xcodebuild can't find a shared scheme
 xcodebuild -project "$APP_NAME.xcodeproj" \
-           -target "$APP_NAME" \
+           -scheme "$APP_NAME" \
            -configuration Release \
            -derivedDataPath "$BUILD_DIR" \
            build || { echo "❌ Build failed."; exit 1; }
