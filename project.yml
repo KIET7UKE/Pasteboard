@@ -1,0 +1,17 @@
+name: Pasteboard
+targets:
+  Pasteboard:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: Pasteboard
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.yourname.pasteboard
+      INFOPLIST_FILE: Pasteboard/Resources/Info.plist
+      CODE_SIGN_ENTITLEMENTS: Pasteboard/Resources/Pasteboard.entitlements
+      GENERATE_INFOPLIST_FILE: NO
+      SWIFT_VERSION: 5.9
+      SDKROOT: macosx
+      MACOSX_DEPLOYMENT_TARGET: "13.0"
+      LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/../Frameworks

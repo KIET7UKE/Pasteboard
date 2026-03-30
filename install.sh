@@ -2,6 +2,7 @@
 
 # Configuration
 APP_NAME="Pasteboard"
+SCHEME_NAME="Pasteboard"
 BUILD_DIR="./build"
 INSTALL_PATH="/Applications/$APP_NAME.app"
 
@@ -17,9 +18,8 @@ fi
 rm -rf "$BUILD_DIR"
 
 # Build the project
-# Note: We build the target directly to avoid scheme dependency issues if xcodebuild can't find a shared scheme
 xcodebuild -project "$APP_NAME.xcodeproj" \
-           -scheme "$APP_NAME" \
+           -scheme "$SCHEME_NAME" \
            -configuration Release \
            -derivedDataPath "$BUILD_DIR" \
            build || { echo "❌ Build failed."; exit 1; }
@@ -43,4 +43,4 @@ fi
 sudo cp -R "$BUILT_APP" "/Applications/"
 
 echo "✅ Installation complete! You can find $APP_NAME in your /Applications folder."
-echo "⚠️  Note: You may need to grant Accessibility permissions to $APP_NAME system-wide for the hotkey and auto-paste to work."
+echo "⚠️  Note: You may need to grant Accessibility permissions to $APP_NAME in System Settings → Privacy & Security → Accessibility."

@@ -3,212 +3,221 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1000001 /* PasteboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* PasteboardApp.swift */; };
-		A1000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* AppDelegate.swift */; };
-		A1000003 /* ClipboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* ClipboardStore.swift */; };
-		A1000004 /* ClipboardHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* ClipboardHistoryView.swift */; };
-		A1000006 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* ClipboardItem.swift */; };
-		A1000007 /* ClipboardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* ClipboardRowView.swift */; };
-		A1000008 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008 /* Color+Hex.swift */; };
+		05D12322A5629A52F41728A0 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A61F7DAF52761B220037F0 /* ClipboardItem.swift */; };
+		2F5EB55DD41DDD1B5F456B10 /* ClipboardHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FD3DECAD86E6B283D18AF /* ClipboardHistoryView.swift */; };
+		333328163B311C2212955A25 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92570E04F9ADE27B35741308 /* Color+Hex.swift */; };
+		4C7CCB224AE6612F662AD06C /* ClipboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB2373D326D7883D14D900 /* ClipboardStore.swift */; };
+		506ABEED26121E3A943C14C8 /* PasteboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09747F649F378ED710DF8D8 /* PasteboardApp.swift */; };
+		B05A44304505EAB699B8EDC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED3770E8A3C518FB116BF6 /* AppDelegate.swift */; };
+		B0E6A889F9EBEAA7922D6BA6 /* ClipboardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C49092207DADC00E736211 /* ClipboardRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A2000001 /* PasteboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/PasteboardApp.swift; sourceTree = "<group>"; };
-		A2000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppDelegate.swift; sourceTree = "<group>"; };
-		A2000003 /* ClipboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ClipboardStore.swift; sourceTree = "<group>"; };
-		A2000004 /* ClipboardHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ClipboardHistoryView.swift; sourceTree = "<group>"; };
-		A2000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources/Info.plist; sourceTree = "<group>"; };
-		A2000006 /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ClipboardItem.swift; sourceTree = "<group>"; };
-		A2000007 /* ClipboardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ClipboardRowView.swift; sourceTree = "<group>"; };
-		A2000008 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/Color+Hex.swift; sourceTree = "<group>"; };
-		A2000016 /* Pasteboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources/Pasteboard.entitlements; sourceTree = "<group>"; };
-		A3000001 /* Pasteboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pasteboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		450FD3DECAD86E6B283D18AF /* ClipboardHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardHistoryView.swift; sourceTree = "<group>"; };
+		92570E04F9ADE27B35741308 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		A09747F649F378ED710DF8D8 /* PasteboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardApp.swift; sourceTree = "<group>"; };
+		B0C49092207DADC00E736211 /* ClipboardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardRowView.swift; sourceTree = "<group>"; };
+		C3A61F7DAF52761B220037F0 /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		D96D350AE89623D58D14C000 /* Pasteboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pasteboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBB2373D326D7883D14D900 /* ClipboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardStore.swift; sourceTree = "<group>"; };
+		E0016D90D4BFD3C6BA45AD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E0ED3770E8A3C518FB116BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5B92BB3B5F8364D3D17683 /* Pasteboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pasteboard.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A4000001 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		A5000001 = {
+		0359B25199947FE25A8ACF32 /* Pasteboard */ = {
 			isa = PBXGroup;
 			children = (
-A5000002 /* Pasteboard */,
-A5000003 /* Products */,
-);
-			sourceTree = "<group>";
-		};
-		A5000002 /* Pasteboard */ = {
-			isa = PBXGroup;
-			children = (
-A5000010 /* App */,
-A5000011 /* Models */,
-A5000012 /* Services */,
-A5000013 /* Views */,
-A5000014 /* Utilities */,
-A5000015 /* Resources */,
-);
+				ABCD2D09DB6D077572C07977 /* App */,
+				8F1D7DC6725DA9715FCDC5EF /* Models */,
+				5F824AE102A99D8BC9D7D72A /* Resources */,
+				4466175106FEFAA6B4E25C8F /* Services */,
+				D4D6C4A6943997EA702988B2 /* Utilities */,
+				5F19BD9233E3AC8C94F4D687 /* Views */,
+			);
 			path = Pasteboard;
 			sourceTree = "<group>";
 		};
-		A5000003 /* Products */ = {
+		4466175106FEFAA6B4E25C8F /* Services */ = {
 			isa = PBXGroup;
 			children = (
-A3000001 /* Pasteboard.app */,
-);
+				DEBB2373D326D7883D14D900 /* ClipboardStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5F19BD9233E3AC8C94F4D687 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				450FD3DECAD86E6B283D18AF /* ClipboardHistoryView.swift */,
+				B0C49092207DADC00E736211 /* ClipboardRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F824AE102A99D8BC9D7D72A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0016D90D4BFD3C6BA45AD95 /* Info.plist */,
+				FD5B92BB3B5F8364D3D17683 /* Pasteboard.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		731E71E28264E424DC3B4632 = {
+			isa = PBXGroup;
+			children = (
+				0359B25199947FE25A8ACF32 /* Pasteboard */,
+				D4A6BFA110C39C606F1EEF48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1D7DC6725DA9715FCDC5EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3A61F7DAF52761B220037F0 /* ClipboardItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABCD2D09DB6D077572C07977 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E0ED3770E8A3C518FB116BF6 /* AppDelegate.swift */,
+				A09747F649F378ED710DF8D8 /* PasteboardApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D4A6BFA110C39C606F1EEF48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96D350AE89623D58D14C000 /* Pasteboard.app */,
+			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5000010 /* App */ = {
+		D4D6C4A6943997EA702988B2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-A2000001 /* PasteboardApp.swift */,
-A2000002 /* AppDelegate.swift */,
-);
-			name = App;
-			sourceTree = "<group>";
-		};
-		A5000011 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-A2000006 /* ClipboardItem.swift */,
-);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		A5000012 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-A2000003 /* ClipboardStore.swift */,
-);
-			name = Services;
-			sourceTree = "<group>";
-		};
-		A5000013 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-A2000004 /* ClipboardHistoryView.swift */,
-A2000007 /* ClipboardRowView.swift */,
-);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		A5000014 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-A2000008 /* Color+Hex.swift */,
-);
-			name = Utilities;
-			sourceTree = "<group>";
-		};
-		A5000015 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-A2000005 /* Info.plist */,
-A2000016 /* Pasteboard.entitlements */,
-);
-			name = Resources;
+				92570E04F9ADE27B35741308 /* Color+Hex.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6000001 /* Pasteboard */ = {
+		D62D6AB1C2C0255F32C0D045 /* Pasteboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8000001 /* Build configuration list for PBXNativeTarget "Pasteboard" */;
+			buildConfigurationList = FEE2BDDA91B80088192A1635 /* Build configuration list for PBXNativeTarget "Pasteboard" */;
 			buildPhases = (
-A7000001 /* Sources */,
-A4000001 /* Frameworks */,
-A7000002 /* Resources */,
-);
+				3591522AD0549454E2CC7B75 /* Sources */,
+			);
 			buildRules = (
-);
+			);
 			dependencies = (
-);
+			);
 			name = Pasteboard;
+			packageProductDependencies = (
+			);
 			productName = Pasteboard;
-			productReference = A3000001 /* Pasteboard.app */;
+			productReference = D96D350AE89623D58D14C000 /* Pasteboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A9000001 /* Project object */ = {
+		701A10EA4124ABAED182C3AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A6000001 = {
-						CreatedOnToolsVersion = 15.0;
-					};
 				};
 			};
-			buildConfigurationList = A8000002 /* Build configuration list for PBXProject "Pasteboard" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 647D78A5376926D6DB2DCB18 /* Build configuration list for PBXProject "Pasteboard" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-en,
-Base,
-);
-			mainGroup = A5000001;
-			productRefGroup = A5000003 /* Products */;
+				Base,
+				en,
+			);
+			mainGroup = 731E71E28264E424DC3B4632;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D4A6BFA110C39C606F1EEF48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-A6000001 /* Pasteboard */,
-);
+				D62D6AB1C2C0255F32C0D045 /* Pasteboard */,
+			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		A7000002 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A7000001 /* Sources */ = {
+		3591522AD0549454E2CC7B75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-A1000001 /* PasteboardApp.swift in Sources */,
-A1000002 /* AppDelegate.swift in Sources */,
-A1000003 /* ClipboardStore.swift in Sources */,
-A1000004 /* ClipboardHistoryView.swift in Sources */,
-A1000006 /* ClipboardItem.swift in Sources */,
-A1000007 /* ClipboardRowView.swift in Sources */,
-A1000008 /* Color+Hex.swift in Sources */,
-);
+				B05A44304505EAB699B8EDC1 /* AppDelegate.swift in Sources */,
+				2F5EB55DD41DDD1B5F456B10 /* ClipboardHistoryView.swift in Sources */,
+				05D12322A5629A52F41728A0 /* ClipboardItem.swift in Sources */,
+				B0E6A889F9EBEAA7922D6BA6 /* ClipboardRowView.swift in Sources */,
+				4C7CCB224AE6612F662AD06C /* ClipboardStore.swift in Sources */,
+				333328163B311C2212955A25 /* Color+Hex.swift in Sources */,
+				506ABEED26121E3A943C14C8 /* PasteboardApp.swift in Sources */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A8000003 /* Debug */ = {
+		0299E9D4EEA7AFC996035738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pasteboard/Resources/Pasteboard.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Pasteboard/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.pasteboard;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		059E02C530733EAA69CDC283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Pasteboard/Resources/Pasteboard.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Pasteboard/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.pasteboard;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		1E7EE5D7D17B69C54F723DC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -233,44 +242,44 @@ A1000008 /* Color+Hex.swift in Sources */,
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_EXCEPTION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-"DEBUG=1",
-"$(inherited)",
-);
+					"$(inherited)",
+					"DEBUG=1",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		A8000004 /* Release */ = {
+		60F6621E39CBC5723BB91DCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -295,13 +304,12 @@ A1000008 /* Color+Hex.swift in Sources */,
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_EXCEPTION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -309,88 +317,38 @@ A1000008 /* Color+Hex.swift in Sources */,
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		A8000005 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Pasteboard/Resources/Pasteboard.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Pasteboard/Resources/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-"$(inherited)",
-"@executable_path/../Frameworks",
-);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.pasteboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-			};
-			name = Debug;
-		};
-		A8000006 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Pasteboard/Resources/Pasteboard.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Pasteboard/Resources/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-"$(inherited)",
-"@executable_path/../Frameworks",
-);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.pasteboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8000001 /* Build configuration list for PBXNativeTarget "Pasteboard" */ = {
+		647D78A5376926D6DB2DCB18 /* Build configuration list for PBXProject "Pasteboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-A8000005 /* Debug */,
-A8000006 /* Release */,
-);
+				1E7EE5D7D17B69C54F723DC8 /* Debug */,
+				60F6621E39CBC5723BB91DCC /* Release */,
+			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		A8000002 /* Build configuration list for PBXProject "Pasteboard" */ = {
+		FEE2BDDA91B80088192A1635 /* Build configuration list for PBXNativeTarget "Pasteboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-A8000003 /* Debug */,
-A8000004 /* Release */,
-);
+				059E02C530733EAA69CDC283 /* Debug */,
+				0299E9D4EEA7AFC996035738 /* Release */,
+			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
-
 	};
-	rootObject = A9000001 /* Project object */;
+	rootObject = 701A10EA4124ABAED182C3AA /* Project object */;
 }
