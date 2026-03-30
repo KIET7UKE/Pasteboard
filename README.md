@@ -18,22 +18,7 @@ Built with SwiftUI and AppKit — lives in your menubar, stays out of your way.
 
 ## 📸 Screenshots
 
-> _Add screenshots here once the app is running. Suggested shots:_
-> - _The menubar icon and dropdown panel_
-> - _The clipboard history list with search active_
-> - _System Settings → Accessibility permission prompt_
-
-```
-[Menubar Panel]           [Search in Action]
-┌─────────────────────┐   ┌─────────────────────┐
-│ 🔍 Search...        │   │ 🔍 git commit       │
-│─────────────────────│   │─────────────────────│
-│ git push origin ... │   │ git commit -m "fix" │
-│ Hello, World!       │   │ git commit --amend  │
-│ https://github.c... │   └─────────────────────┘
-│ npm install         │
-└─────────────────────┘
-```
+> - <img width="546" height="577" alt="Screenshot 2026-03-30 at 9 00 57 PM" src="https://github.com/user-attachments/assets/bf10e0c1-7082-48e4-bf22-e67c7fc6b421" />
 
 ---
 
